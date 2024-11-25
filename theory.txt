@@ -1,0 +1,148 @@
+Class-40 (Switch-Case & Php function)
+https://www.facebook.com/muntasir.fahim8/videos/532164656295603?idorvanity=7295095747278784
+======================================
+
+if(condition){
+    //statement...
+}
+
+else if(condition){
+    //statement...
+}
+else if(condition){
+    //statement...
+}
+else if(condition){
+    //statement...
+}
+else{
+    //statement...
+}
+==================
+
+Switch-Case
+$marks = 70;
+
+switch($marks){
+    case 80;
+    //statement echo "The Grade is A+";
+    break;
+
+     case 70;
+    //statement echo "The Grade is A";
+    break;
+
+     case 60;
+    //statement echo "The Grade is A-";
+    break;
+
+    default:
+    echo "The Grade is F";
+    break;
+
+}
+
+****Switch Case a range/condition deyar option nei.
+
+
+rahim = car -> long tour (fixed)
+rahim = bike -> hang out (fixed)
+rahim = cycle -> field (fixed)
+*******(fixed) hole swtich case use kora jete pare.
+
+==============
+==========Function ~php ======
+
+function functionName(){
+    //statement/body.....
+}
+
+function sum(){
+    $x = 10;
+    $y = 30;
+    $result = $x+$y;
+    echo $result;
+    return $result;
+}
+sum();
+
+==============================
+
+<?php
+// $marks = 89;
+
+// if ($marks>=80){
+//     echo "The Grade is A+";
+// }
+// else if ($marks>=70){
+//     echo "The Grade is A";
+// }
+// else if ($marks>=60){
+//     echo "The Grade is A-". "<br>";
+// }
+
+
+// switch($marks){
+//     case 80;
+//     echo "The Grade is A+";
+//     break;
+
+//      case 70;
+//     echo "The Grade is A";
+//     break;
+
+//      case 60;
+//     echo "The Grade is A-";
+//     break;
+
+//     default:
+//     echo "The Grade is F";
+//     break;
+
+// }
+
+// $rahim = "Nothing";
+
+// switch($rahim){
+//     case "car";
+//     echo "Long Tour";
+//     break;
+
+
+//     case "bike";
+//     echo "Hang Out";
+//     break;
+
+
+//     case "cycle";
+//     echo "Go to Field";
+//     break;
+
+
+// default:
+//     echo "Stay Home";
+//     break;
+// }
+
+function sum($number1, $number2){
+    $x = $number1;
+    $y = $number2;
+    $result = $x+$y;
+    // echo $result;
+    return $result;
+}
+// sum($number1, $number2);
+sum(56,60);
+
+$sumValue = sum(56,60);
+echo $sumValue."<br>";
+
+$number3 = 200;
+
+// $sumValue + $number3
+$secondSumValue = $sumValue + $number3;
+
+echo $secondSumValue;
+?>
+=========================================
+Q. 1. not work br tag
